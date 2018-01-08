@@ -1,0 +1,17 @@
+import turtle
+
+#code here
+distance = 100
+while distance > 0:
+  turtle.shape("turtle")
+  turtle.forward(distance)
+#turtle.fd(100) short form
+  turtle.right(90)
+#turtle.rt(90) short form
+  turtle.backward(distance)
+#turtle.bk(distance) short form
+  turtle.right(90)
+  turtle.forward(distance)
+  turtle.left(90)
+  turtle.forward(distance)
+  distance = distance -5
